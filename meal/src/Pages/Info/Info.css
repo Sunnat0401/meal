@@ -1,0 +1,10 @@
+.info-wrapper{
+    padding-top: 100px;
+    background-color: #f6f6f6; 
+    padding-bottom: 50px;
+
+}
+.info-wrapper .container{
+    padding: 10px 120px;
+    background-color: White;
+}
