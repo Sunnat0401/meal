@@ -3,21 +3,19 @@ import corusel1 from '../../assets/carusel1.jpg'
 import corusel2 from '../../assets/carusel2.jpg'
 import corusel3 from '../../assets/carusel3.jpg'
 import cardImg from '../../assets/card.png'
-import foods1 from '../../assets/foods1.jpg'
-import foods2 from '../../assets/foods2.jpg'
-import foods3 from '../../assets/foods3.jpg'
-import foods4 from '../../assets/foods4.jpg'
-import foods5 from '../../assets/foods5.jpg'
-import foods6 from '../../assets/foods6.jpg'
-import foods7 from '../../assets/foods7.jpg'
-import foods8 from '../../assets/foods8.png'
-import foods9 from '../../assets/foods9.png'
+import sauce1 from '../../assets/sauce1.jpg'
+import sauce2 from '../../assets/sauce2.jpg'
+import sauce3 from '../../assets/sauce3.jpg'
+import sauce4 from '../../assets/sauce4.jpg'
+import sauce5 from '../../assets/sauce6.jpg'
+import sauce6 from '../../assets/sauce7.jpg'
+import sauce7 from '../../assets/sauce8.jpg'
+import sauce8 from '../../assets/sauce9.jpg'
 import {Link} from 'react-router-dom'
-import './HomePages.css'
 import Footer from '../../Components/Footer/Footer'
-const HomePages = () => {
+const Sauce = () => {
   return (
-    <div className="homepage">
+    <div className="set">
      <Navbar/>   
 
      {/* Carusel */}
@@ -60,20 +58,20 @@ const HomePages = () => {
         <div className="wrapper">
         <div className="container">
           <ul className="menu-meal">
-          <li className="meal"><Link to="/" className="menu-link actives ">Lavash</Link></li>
+          <li className="meal"><Link to="/" className="menu-link ">Lavash</Link></li>
             <li className="meal"><Link to="/desert" className="menu-link ">Desert</Link></li>
             <li className="meal"><Link to="/set" className="menu-link ">Set</Link></li>
-            <li className="meal"><Link to="/haggi" className="menu-link">Xaggi</Link></li>
+            <li className="meal"><Link to="/haggi" className="menu-link ">Xaggi</Link></li>
             <li className="meal"><Link to="/burger" className="menu-link">Burger</Link></li>
             <li className="meal"><Link to="/pizza" className="menu-link">Pizza</Link></li>
-            <li className="meal"><Link to="/sendwich" className="menu-link">Sendvich</Link></li>
-            <li className="meal"><Link to="/donar" className="menu-link">Donar</Link></li>
+            <li className="meal"><Link to="/sendwich" className="menu-link ">Sendvich</Link></li>
+            <li className="meal"><Link to="/donar" className="menu-link ">Donar</Link></li>
             <li className="meal"><Link to="/xot-dog" className="menu-link">Xot-dog</Link></li>
             <li className="meal"><Link to="/free" className="menu-link">Free</Link></li>
             <li className="meal"><Link to="/drink" className="menu-link">Drink</Link></li>
-            <li className="meal"><Link to="/salad" className="menu-link">Salad</Link></li>
-            <li className="meal"><Link to="/bread" className="menu-link">Bread</Link></li>
-            <li className="meal"><Link to="/sauce" className="menu-link">Sauce</Link></li>
+            <li className="meal"><Link to="/salad" className="menu-link ">Salad</Link></li>
+            <li className="meal"><Link to="/bread" className="menu-link ">Bread</Link></li>
+            <li className="meal"><Link to="/sauce" className="menu-link actives">Sauce</Link></li>
           </ul>
         </div>
         </div>
@@ -84,7 +82,7 @@ const HomePages = () => {
   <div className="foods">
     <div className="container">
       <div className="foods-lists">
-             <img src={foods1} alt="tfoods" className="foods-img" />
+             <img src={sauce1} alt="tfoods" className="foods-img" />
              <h4 className="foods-title">Spicy seasoned seafood noodles</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -93,7 +91,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods2} alt="foods" className="foods-img" />
+             <img src={sauce2} alt="foods" className="foods-img" />
              <h4 className="foods-title">x owls available</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -102,7 +100,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods3} alt="foods" className="foods-img" />
+             <img src={sauce3} alt="foods" className="foods-img" />
              <h4 className="foods-title">Salted Pasta with mushroom sauce</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -111,7 +109,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods4} alt="foods" className="foods-img" />
+             <img src={sauce4} alt="foods" className="foods-img" />
              <h4 className="foods-title">Beef dumpling in hot soup</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -120,7 +118,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods5} alt="foods" className="foods-img" />
+             <img src={sauce5} alt="foods" className="foods-img" />
              <h4 className="foods-title">Hot spicy fried rice with omelet</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -129,7 +127,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods6} alt="foods" className="foods-img" />
+             <img src={sauce6} alt="foods" className="foods-img" />
              <h4 className="foods-title">Spicy instant noodle with</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -138,7 +136,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods7} alt="foods" className="foods-img" />
+             <img src={sauce2} alt="foods" className="foods-img" />
              <h4 className="foods-title">constant noodle special omelette</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -147,7 +145,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods8} alt="foods" className="foods-img" />
+             <img src={sauce8} alt="foods" className="foods-img" />
              <h4 className="foods-title">noodle with spinach</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -156,7 +154,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods9} alt="foods" className="foods-img" />
+             <img src={sauce7} alt="foods" className="foods-img" />
              <h4 className="foods-title">Salted Pasta with mushroom sauce</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -175,4 +173,4 @@ const HomePages = () => {
   )
 }
 
-export default HomePages
+export default Sauce

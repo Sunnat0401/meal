@@ -3,21 +3,21 @@ import corusel1 from '../../assets/carusel1.jpg'
 import corusel2 from '../../assets/carusel2.jpg'
 import corusel3 from '../../assets/carusel3.jpg'
 import cardImg from '../../assets/card.png'
-import foods1 from '../../assets/foods1.jpg'
-import foods2 from '../../assets/foods2.jpg'
-import foods3 from '../../assets/foods3.jpg'
-import foods4 from '../../assets/foods4.jpg'
-import foods5 from '../../assets/foods5.jpg'
-import foods6 from '../../assets/foods6.jpg'
-import foods7 from '../../assets/foods7.jpg'
-import foods8 from '../../assets/foods8.png'
-import foods9 from '../../assets/foods9.png'
+import burger1 from '../../assets/burder1.jpg'
+import burger2 from '../../assets/burder2.jpg'
+import burger3 from '../../assets/burder3.jpg'
+import burger4 from '../../assets/burder4.jpg'
+import burger5 from '../../assets/burder5.jpg'
+import burger6 from '../../assets/burder6.jpg'
+import burger7 from '../../assets/burder7.jpg'
+import burger8 from '../../assets/burder8.jpg'
+import burger9 from '../../assets/burder9.jpg'
 import {Link} from 'react-router-dom'
-import './HomePages.css'
+import './Burger.css'
 import Footer from '../../Components/Footer/Footer'
-const HomePages = () => {
+const Burger = () => {
   return (
-    <div className="homepage">
+    <div className="set">
      <Navbar/>   
 
      {/* Carusel */}
@@ -60,11 +60,11 @@ const HomePages = () => {
         <div className="wrapper">
         <div className="container">
           <ul className="menu-meal">
-          <li className="meal"><Link to="/" className="menu-link actives ">Lavash</Link></li>
+          <li className="meal"><Link to="/" className="menu-link ">Lavash</Link></li>
             <li className="meal"><Link to="/desert" className="menu-link ">Desert</Link></li>
             <li className="meal"><Link to="/set" className="menu-link ">Set</Link></li>
-            <li className="meal"><Link to="/haggi" className="menu-link">Xaggi</Link></li>
-            <li className="meal"><Link to="/burger" className="menu-link">Burger</Link></li>
+            <li className="meal"><Link to="/haggi" className="menu-link ">Xaggi</Link></li>
+            <li className="meal"><Link to="/burger" className="menu-link actives">Burger</Link></li>
             <li className="meal"><Link to="/pizza" className="menu-link">Pizza</Link></li>
             <li className="meal"><Link to="/sendwich" className="menu-link">Sendvich</Link></li>
             <li className="meal"><Link to="/donar" className="menu-link">Donar</Link></li>
@@ -84,7 +84,7 @@ const HomePages = () => {
   <div className="foods">
     <div className="container">
       <div className="foods-lists">
-             <img src={foods1} alt="tfoods" className="foods-img" />
+             <img src={burger1} alt="tfoods" className="foods-img" />
              <h4 className="foods-title">Spicy seasoned seafood noodles</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -93,7 +93,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods2} alt="foods" className="foods-img" />
+             <img src={burger2} alt="foods" className="foods-img" />
              <h4 className="foods-title">x owls available</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -102,7 +102,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods3} alt="foods" className="foods-img" />
+             <img src={burger3} alt="foods" className="foods-img" />
              <h4 className="foods-title">Salted Pasta with mushroom sauce</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -111,7 +111,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods4} alt="foods" className="foods-img" />
+             <img src={burger4} alt="foods" className="foods-img" />
              <h4 className="foods-title">Beef dumpling in hot soup</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -120,7 +120,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods5} alt="foods" className="foods-img" />
+             <img src={burger5} alt="foods" className="foods-img" />
              <h4 className="foods-title">Hot spicy fried rice with omelet</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -129,7 +129,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods6} alt="foods" className="foods-img" />
+             <img src={burger6} alt="foods" className="foods-img" />
              <h4 className="foods-title">Spicy instant noodle with</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -138,7 +138,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods7} alt="foods" className="foods-img" />
+             <img src={burger7} alt="foods" className="foods-img" />
              <h4 className="foods-title">constant noodle special omelette</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -147,7 +147,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods8} alt="foods" className="foods-img" />
+             <img src={burger8} alt="foods" className="foods-img" />
              <h4 className="foods-title">noodle with spinach</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -156,7 +156,7 @@ const HomePages = () => {
              </div>
       </div>
       <div className="foods-lists">
-             <img src={foods9} alt="foods" className="foods-img" />
+             <img src={burger9} alt="foods" className="foods-img" />
              <h4 className="foods-title">Salted Pasta with mushroom sauce</h4>
              <p className='foods-text'>Информация: лаваш мясной classic, картофель-фри, пеп</p>
              <div className="foods-info">
@@ -175,4 +175,4 @@ const HomePages = () => {
   )
 }
 
-export default HomePages
+export default Burger
