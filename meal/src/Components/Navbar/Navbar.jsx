@@ -1,10 +1,12 @@
 import './Navbar.css'
+import hamburger  from '../../assets/hamicon.jpg'
 import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
 <div className="navbar-wrap">
 <div className="navbar">
         <div className="container">
+            <img className='hamburger' src={hamburger} alt="iconka" />
             <ul className="navbar-left">
                 <li className="navbar-item logo">
                     <Link to="/" className="navbar-link logo">SFood</Link>
