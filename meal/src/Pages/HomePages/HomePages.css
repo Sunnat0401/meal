@@ -255,7 +255,7 @@
     height: 180px;
 }
 }
-@media screen  and (max-width :742px) {
+@media screen  and (max-width :757px) {
     .foods-lists{
         width: 300px !important;
     }
@@ -264,7 +264,7 @@
         height: 180px;
     }
     }
-    @media screen  and (max-width :647px) {
+    @media screen  and (max-width :657px) {
         .foods-lists{
             height: 330px;
             padding: 10px 15px 18px;
@@ -276,9 +276,12 @@
             height: 180px;
         }
         }
-        @media screen  and (max-width :542px) {
+        @media screen  and (max-width :660px) {
             .foods .container{
-                display: block;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
             }
             .foods-lists{
                 width: 500px !important;
@@ -296,4 +299,27 @@
             }
 
         }
+        @media screen  and (max-width :548px) {
+            .foods .container{
+                display: block;
+            }
+            .foods-lists{
+                width: 400px !important;
+            }
+            .foods-img{
+                width: 100% !important;
+            }
+            }
     
+            @media screen  and (max-width :448px) {
+                .foods-lists{
+                    width: 300px !important;
+                }
+
+                }
+                @media screen  and (max-width :347px) {
+                    .foods-lists{
+                        width: 260px !important;
+                    }
+    
+                    }

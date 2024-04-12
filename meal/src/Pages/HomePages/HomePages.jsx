@@ -169,7 +169,7 @@ const HomePages = () => {
   {/* Foods */}
 
   {/* Footer */}
-    {/* <Footer/> */}
+    <Footer/>
   {/* Footer */}
     </div>
   )
